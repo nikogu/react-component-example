@@ -4,6 +4,10 @@ const path = require('path');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+  resolve: {
+    modulesDirectories: ['node_modules', path.join(__dirname, '../node_modules')],
+    extensions: ['', '.js', '.jsx', '.json'],
+  },
   module: {
     preLoaders: [{
       test: /\.jsx?$/,

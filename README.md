@@ -1,13 +1,13 @@
 # React Component Example
 
-Easy way to write a react component.
+Easy way to write a react component. The react component template.
 
 ## Feature
 
 - support [ant-design](http://ant.design)
 - support starting a local server to debug
+- support living lint 
 - support umd
-- support lint
 
 ## How to use
 
@@ -18,7 +18,7 @@ Easy way to write a react component.
 
 ### Command
 
-`npm start`: Start server to debug your code.
+`npm start`: Start server to debug your code.(http://127.0.0.1:8000/demo)
 
 `npm build`: Build umd(in /dist) & translate your code to es3 by babel(in /lib).
 

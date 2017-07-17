@@ -1,7 +1,7 @@
-// demo webpack config
+// your demo webpack config
 
-const fs = require('fs');
-const path = require('path');
+//const fs = require('fs');
+//const path = require('path');
 const glob = require('glob');
 
 module.exports = function (webpackConfig, env) {
